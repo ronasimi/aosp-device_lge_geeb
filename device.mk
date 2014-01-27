@@ -125,7 +125,8 @@ PRODUCT_COPY_FILES += \
 
 # Copy init.d files
 PRODUCT_COPY_FILES += \
-        device/lge/geeb/01mpdecision:system/etc/init.d/01mpdecision
+        device/lge/geeb/01mpdecision:system/etc/init.d/01mpdecision \
+	device/lge/geeb/99kerneltweaks:system/etc/init.d/99kerneltweaks
 
 PRODUCT_PROPERTY_OVERRIDES += \
         ro.opengles.version=196608
